@@ -736,8 +736,8 @@ table tr th {
   transition-property: all;
 }
 .navbar.navbar--fixed.on-scroll-show {
-  -webkit-animation-name: vlt_fade_in_down;
-  animation-name: vlt_fade_in_down;
+  -webkit-animation-name: yk_fade_in_down;
+  animation-name: yk_fade_in_down;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: linear;
@@ -746,8 +746,8 @@ table tr th {
   animation-fill-mode: forwards;
 }
 .navbar.navbar--fixed.on-scroll-hide {
-  -webkit-animation-name: vlt_fade_out_up;
-  animation-name: vlt_fade_out_up;
+  -webkit-animation-name: yk_fade_out_up;
+  animation-name: yk_fade_out_up;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: linear;
@@ -1991,8 +1991,8 @@ table tr th {
   background-color: currentColor;
 }
 .footer-content a:hover::before {
-  -webkit-animation-name: vlt_underline_link;
-  animation-name: vlt_underline_link;
+  -webkit-animation-name: yk_underline_link;
+  animation-name: yk_underline_link;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -2563,8 +2563,8 @@ table tr th {
   padding-right: 75px;
 }
 .search-form input[type="text"]:focus + button {
-  -webkit-animation-name: vlt_btn_effect;
-  animation-name: vlt_btn_effect;
+  -webkit-animation-name: yk_btn_effect;
+  animation-name: yk_btn_effect;
   -webkit-animation-duration: 250ms;
   animation-duration: 250ms;
   -webkit-animation-timing-function: linear;
@@ -2830,8 +2830,8 @@ table tr th {
   padding-right: 20px;
 }
 .post-navigation .prev:hover::before {
-  -webkit-animation-name: vlt_animate_icon_left;
-  animation-name: vlt_animate_icon_left;
+  -webkit-animation-name: yk_animate_icon_left;
+  animation-name: yk_animate_icon_left;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: linear;
@@ -2840,8 +2840,8 @@ table tr th {
   animation-fill-mode: forwards;
 }
 .post-navigation .next:hover::after {
-  -webkit-animation-name: vlt_animate_icon_right;
-  animation-name: vlt_animate_icon_right;
+  -webkit-animation-name: yk_animate_icon_right;
+  animation-name: yk_animate_icon_right;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: linear;
@@ -3122,8 +3122,8 @@ table tr th {
   width: auto;
   height: auto;
   margin: 25px 0 0;
-  -webkit-animation-name: vlt_fade_in;
-  animation-name: vlt_fade_in;
+  -webkit-animation-name: yk_fade_in;
+  animation-name: yk_fade_in;
   -webkit-animation-duration: 150ms;
   animation-duration: 150ms;
   -webkit-animation-timing-function: ease-in-out;
@@ -3149,8 +3149,8 @@ table tr th {
   text-transform: lowercase;
 }
 .js-caption--active {
-  -webkit-animation-name: vlt_fade_in;
-  animation-name: vlt_fade_in;
+  -webkit-animation-name: yk_fade_in;
+  animation-name: yk_fade_in;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: ease-in-out;
@@ -3912,8 +3912,8 @@ table tr th {
   }
 }
 .large-link:hover i {
-  -webkit-animation-name: vlt_animate_icon_right;
-  animation-name: vlt_animate_icon_right;
+  -webkit-animation-name: yk_animate_icon_right;
+  animation-name: yk_animate_icon_right;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: ease-in-out;
@@ -4412,8 +4412,8 @@ table tr th {
   left: 0;
 }
 .fancybox-navigation .fancybox-button--arrow_left:hover span {
-  -webkit-animation-name: vlt_animate_icon_left;
-  animation-name: vlt_animate_icon_left;
+  -webkit-animation-name: yk_animate_icon_left;
+  animation-name: yk_animate_icon_left;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: linear;
@@ -4425,8 +4425,8 @@ table tr th {
   right: 0;
 }
 .fancybox-navigation .fancybox-button--arrow_right:hover span {
-  -webkit-animation-name: vlt_animate_icon_right;
-  animation-name: vlt_animate_icon_right;
+  -webkit-animation-name: yk_animate_icon_right;
+  animation-name: yk_animate_icon_right;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: linear;
@@ -7536,7 +7536,7 @@ table tr th {
 .cart-totals table tr.shipping select {
   background-position: right 15px bottom 50%;
 }
-@-webkit-keyframes vlt_blink_in {
+@-webkit-keyframes yk_blink_in {
   0% {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
@@ -7548,7 +7548,7 @@ table tr th {
     opacity: 1;
   }
 }
-@keyframes vlt_blink_in {
+@keyframes yk_blink_in {
   0% {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
@@ -7560,7 +7560,7 @@ table tr th {
     opacity: 1;
   }
 }
-@-webkit-keyframes vlt_fade_in_down {
+@-webkit-keyframes yk_fade_in_down {
   0% {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
@@ -7570,7 +7570,7 @@ table tr th {
     transform: translate3d(0, 0, 0);
   }
 }
-@keyframes vlt_fade_in_down {
+@keyframes yk_fade_in_down {
   0% {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
@@ -7580,7 +7580,7 @@ table tr th {
     transform: translate3d(0, 0, 0);
   }
 }
-@-webkit-keyframes vlt_fade_out_up {
+@-webkit-keyframes yk_fade_out_up {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -7590,7 +7590,7 @@ table tr th {
     transform: translate3d(0, -100%, 0);
   }
 }
-@keyframes vlt_fade_out_up {
+@keyframes yk_fade_out_up {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -7600,7 +7600,7 @@ table tr th {
     transform: translate3d(0, -100%, 0);
   }
 }
-@-webkit-keyframes vlt_fade_in {
+@-webkit-keyframes yk_fade_in {
   0% {
     opacity: 0;
   }
@@ -7608,7 +7608,7 @@ table tr th {
     opacity: 1;
   }
 }
-@keyframes vlt_fade_in {
+@keyframes yk_fade_in {
   0% {
     opacity: 0;
   }
@@ -7616,7 +7616,7 @@ table tr th {
     opacity: 1;
   }
 }
-@-webkit-keyframes vlt_bounce {
+@-webkit-keyframes yk_bounce {
   0%,
   100%,
   20%,
@@ -7644,7 +7644,7 @@ table tr th {
     transform: translate3d(0, -2px, 0);
   }
 }
-@keyframes vlt_bounce {
+@keyframes yk_bounce {
   0%,
   100%,
   20%,
@@ -7672,7 +7672,7 @@ table tr th {
     transform: translate3d(0, -2px, 0);
   }
 }
-@-webkit-keyframes vlt_btn_effect {
+@-webkit-keyframes yk_btn_effect {
   49% {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
@@ -7688,7 +7688,7 @@ table tr th {
     opacity: 1;
   }
 }
-@keyframes vlt_btn_effect {
+@keyframes yk_btn_effect {
   49% {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
@@ -7704,7 +7704,7 @@ table tr th {
     opacity: 1;
   }
 }
-@-webkit-keyframes vlt_animate_icon_right {
+@-webkit-keyframes yk_animate_icon_right {
   49% {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -7718,7 +7718,7 @@ table tr th {
     opacity: 1;
   }
 }
-@keyframes vlt_animate_icon_right {
+@keyframes yk_animate_icon_right {
   49% {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -7732,7 +7732,7 @@ table tr th {
     opacity: 1;
   }
 }
-@-webkit-keyframes vlt_animate_icon_left {
+@-webkit-keyframes yk_animate_icon_left {
   49% {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
@@ -7746,7 +7746,7 @@ table tr th {
     opacity: 1;
   }
 }
-@keyframes vlt_animate_icon_left {
+@keyframes yk_animate_icon_left {
   49% {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
@@ -7760,7 +7760,7 @@ table tr th {
     opacity: 1;
   }
 }
-@-webkit-keyframes vlt_preloader_cube {
+@-webkit-keyframes yk_preloader_cube {
   0% {
     opacity: 1;
   }
@@ -7768,7 +7768,7 @@ table tr th {
     opacity: 0;
   }
 }
-@keyframes vlt_preloader_cube {
+@keyframes yk_preloader_cube {
   0% {
     opacity: 1;
   }
@@ -7776,7 +7776,7 @@ table tr th {
     opacity: 0;
   }
 }
-@-webkit-keyframes vlt_preloader_signal {
+@-webkit-keyframes yk_preloader_signal {
   0% {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
@@ -7790,7 +7790,7 @@ table tr th {
     transform: scaleY(1);
   }
 }
-@keyframes vlt_preloader_signal {
+@keyframes yk_preloader_signal {
   0% {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
@@ -7804,7 +7804,7 @@ table tr th {
     transform: scaleY(1);
   }
 }
-@-webkit-keyframes vlt_preloader_spinner {
+@-webkit-keyframes yk_preloader_spinner {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -7814,7 +7814,7 @@ table tr th {
     transform: rotate(360deg);
   }
 }
-@keyframes vlt_preloader_spinner {
+@keyframes yk_preloader_spinner {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -7824,7 +7824,7 @@ table tr th {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes vlt_underline_link {
+@-webkit-keyframes yk_underline_link {
   0% {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -7850,7 +7850,7 @@ table tr th {
     transform-origin: top left;
   }
 }
-@keyframes vlt_underline_link {
+@keyframes yk_underline_link {
   0% {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -7897,8 +7897,8 @@ table tr th {
   text-transform: uppercase;
 }
 .social-icon:hover {
-  -webkit-animation-name: vlt_bounce;
-  animation-name: vlt_bounce;
+  -webkit-animation-name: yk_bounce;
+  animation-name: yk_bounce;
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-in-out;
@@ -7946,8 +7946,8 @@ table tr th {
 .btn--effect:hover span,
 .services-box__link:hover span,
 .simple-image .image-link:hover span {
-  -webkit-animation-name: vlt_btn_effect;
-  animation-name: vlt_btn_effect;
+  -webkit-animation-name: yk_btn_effect;
+  animation-name: yk_btn_effect;
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-timing-function: ease-in-out;
